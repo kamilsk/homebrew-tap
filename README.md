@@ -1,9 +1,15 @@
-> # homebrew-tap
->
-> Homebrew Formulae to my binaries.
+> # homebrew-tap [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Homebrew%20Formulae%20of%20my%20binaries&url=https://github.com/kamilsk/homebrew-tap&via=ikamilsk&hashtags=brew,binaries)
+> [![Analytics](https://ga-beacon.appspot.com/UA-109817251-23/unsupported/homebrew-tap/readme?pixel)](https://github.com/kamilsk/homebrew-tap)
+> Homebrew Formulae of my binaries.
 
 [![Patreon](https://img.shields.io/badge/patreon-donate-orange.svg)](https://www.patreon.com/octolab)
-[![License](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)](LICENSE)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
+## [form-api](https://kamilsk.github.io/form-api/)
+
+```bash
+$ brew install kamilsk/tap/form-api
+```
 
 ## [retry](https://github.com/kamilsk/retry)
 
@@ -25,5 +31,3 @@ $ brew install kamilsk/tap/semaphore
 ## Notes
 
 - made with ❤️ by [OctoLab](https://www.octolab.org/)
-
-[![Analytics](https://ga-beacon.appspot.com/UA-109817251-23/unsupported/homebrew-tap/readme)](https://github.com/igrigorik/ga-beacon)
