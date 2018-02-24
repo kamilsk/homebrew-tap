@@ -1,9 +1,9 @@
 class FormApi < Formula
   desc "Data Collector as a Service."
   homepage "https://kamilsk.github.io/form-api/"
-  url "https://github.com/kamilsk/form-api/releases/download/1.0.7/form-api_1.0.7_macOS-64bit.tar.gz"
-  version "1.0.7"
-  sha256 "f2d5863f75a99fc8df761fbded78ae4381a4f5b57e9f1a9687cae140095f12d1"
+  url "https://github.com/kamilsk/form-api/releases/download/1.0.8/form-api_1.0.8_macOS-64bit.tar.gz"
+  version "1.0.8"
+  sha256 "e8773b3c5138b52b0453b4ab8037dc3db678f19a87679634ba47ef1fb79bce6f"
 
   def install
     bin.install "form-api"
