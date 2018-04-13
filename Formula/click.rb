@@ -1,9 +1,9 @@
 class Click < Formula
   desc "Link Manager as a Service."
   homepage "https://kamilsk.github.io/click/"
-  url "https://github.com/kamilsk/click/releases/download/1.2.1/click_1.2.1_macOS-64bit.tar.gz"
-  version "1.2.1"
-  sha256 "f49e84219cc7530feb0ad63b3d6f418bff798c481af24178385610efdc3cfb25"
+  url "https://github.com/kamilsk/click/releases/download/1.2.2/click_1.2.2_macOS-64bit.tar.gz"
+  version "1.2.2"
+  sha256 "b56a39855f398425388428558869700fe2e06f8a86a5771937bcc45919fd92bc"
 
   def install
     bin.install "click"
