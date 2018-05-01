@@ -7,8 +7,15 @@
 
 ## [check](https://github.com/kamilsk/check)
 
+[![Build Status](https://travis-ci.org/kamilsk/check.svg?branch=master)](https://travis-ci.org/kamilsk/check)
+[![Code Coverage](https://scrutinizer-ci.com/g/kamilsk/check/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/kamilsk/check/?branch=master)
+[![Code Quality](https://scrutinizer-ci.com/g/kamilsk/check/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/kamilsk/check/?branch=master)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
 ```bash
 $ brew install kamilsk/tap/check
+$ check completion bash > /path/to/bash_completion.d/check.sh
+$ check completion zsh  > /path/to/zsh-completions/_check.zsh
 ```
 
 ## [click](https://kamilsk.github.io/click/)
