@@ -5,10 +5,28 @@
 [![Patreon](https://img.shields.io/badge/patreon-donate-orange.svg)](https://www.patreon.com/octolab)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
+## [check](https://github.com/kamilsk/check)
+
+```bash
+$ brew install kamilsk/tap/check
+```
+
+## [click](https://kamilsk.github.io/click/)
+
+```bash
+$ brew install kamilsk/tap/click
+```
+
 ## [form-api](https://kamilsk.github.io/form-api/)
 
 ```bash
 $ brew install kamilsk/tap/form-api
+```
+
+## [passport](https://kamilsk.github.io/passport/)
+
+```bash
+$ brew install kamilsk/tap/passport
 ```
 
 ## [retry](https://github.com/kamilsk/retry)
@@ -23,11 +41,9 @@ $ brew install kamilsk/tap/retry
 $ brew install kamilsk/tap/semaphore
 ```
 
-## Feedback
+---
 
 [![@kamilsk](https://img.shields.io/badge/author-%40kamilsk-blue.svg)](https://twitter.com/ikamilsk)
 [![@octolab](https://img.shields.io/badge/sponsor-%40octolab-blue.svg)](https://twitter.com/octolab_inc)
 
-## Notes
-
-- made with ❤️ by [OctoLab](https://www.octolab.org/)
+made with ❤️ by [OctoLab](https://www.octolab.org/)
