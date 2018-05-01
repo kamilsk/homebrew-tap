@@ -46,8 +46,15 @@ $ form-api completion zsh  > /path/to/zsh-completions/_form-api.zsh
 
 ## [passport](https://kamilsk.github.io/passport/)
 
+[![Build Status](https://travis-ci.org/kamilsk/passport.svg?branch=master)](https://travis-ci.org/kamilsk/passport)
+[![Code Coverage](https://scrutinizer-ci.com/g/kamilsk/passport/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/kamilsk/passport/?branch=master)
+[![Code Quality](https://scrutinizer-ci.com/g/kamilsk/passport/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/kamilsk/passport/?branch=master)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
 ```bash
 $ brew install kamilsk/tap/passport
+$ passport completion bash > /path/to/bash_completion.d/passport.sh
+$ passport completion zsh  > /path/to/zsh-completions/_passport.zsh
 ```
 
 ## [retry](https://github.com/kamilsk/retry)
