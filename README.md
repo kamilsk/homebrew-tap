@@ -33,8 +33,15 @@ $ click completion zsh  > /path/to/zsh-completions/_click.zsh
 
 ## [form-api](https://kamilsk.github.io/form-api/)
 
+[![Build Status](https://travis-ci.org/kamilsk/form-api.svg?branch=master)](https://travis-ci.org/kamilsk/form-api)
+[![Code Coverage](https://scrutinizer-ci.com/g/kamilsk/form-api/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/kamilsk/form-api/?branch=master)
+[![Code Quality](https://scrutinizer-ci.com/g/kamilsk/form-api/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/kamilsk/form-api/?branch=master)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
 ```bash
 $ brew install kamilsk/tap/form-api
+$ form-api completion bash > /path/to/bash_completion.d/form-api.sh
+$ form-api completion zsh  > /path/to/zsh-completions/_form-api.zsh
 ```
 
 ## [passport](https://kamilsk.github.io/passport/)
