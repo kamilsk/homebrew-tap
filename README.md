@@ -59,8 +59,15 @@ $ passport completion zsh  > /path/to/zsh-completions/_passport.zsh
 
 ## [retry](https://github.com/kamilsk/retry)
 
+[![Build Status](https://travis-ci.org/kamilsk/retry.svg?branch=master)](https://travis-ci.org/kamilsk/retry)
+[![Code Coverage](https://scrutinizer-ci.com/g/kamilsk/retry/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/kamilsk/retry/?branch=master)
+[![Code Quality](https://scrutinizer-ci.com/g/kamilsk/retry/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/kamilsk/retry/?branch=master)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
 ```bash
 $ brew install kamilsk/tap/retry
+$ retry completion bash > /path/to/bash_completion.d/retry.sh
+$ retry completion zsh  > /path/to/zsh-completions/_retry.zsh
 ```
 
 ## [semaphore](https://github.com/kamilsk/semaphore)
