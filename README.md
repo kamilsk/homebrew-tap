@@ -20,8 +20,15 @@ $ check completion zsh  > /path/to/zsh-completions/_check.zsh
 
 ## [click](https://kamilsk.github.io/click/)
 
+[![Build Status](https://travis-ci.org/kamilsk/click.svg?branch=master)](https://travis-ci.org/kamilsk/click)
+[![Code Coverage](https://scrutinizer-ci.com/g/kamilsk/click/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/kamilsk/click/?branch=master)
+[![Code Quality](https://scrutinizer-ci.com/g/kamilsk/click/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/kamilsk/click/?branch=master)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
 ```bash
 $ brew install kamilsk/tap/click
+$ click completion bash > /path/to/bash_completion.d/click.sh
+$ click completion zsh  > /path/to/zsh-completions/_click.zsh
 ```
 
 ## [form-api](https://kamilsk.github.io/form-api/)
