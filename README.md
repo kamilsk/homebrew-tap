@@ -72,8 +72,15 @@ $ retry completion zsh  > /path/to/zsh-completions/_retry.zsh
 
 ## [semaphore](https://github.com/kamilsk/semaphore)
 
+[![Build Status](https://travis-ci.org/kamilsk/semaphore.svg?branch=master)](https://travis-ci.org/kamilsk/semaphore)
+[![Code Coverage](https://scrutinizer-ci.com/g/kamilsk/semaphore/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/kamilsk/semaphore/?branch=master)
+[![Code Quality](https://scrutinizer-ci.com/g/kamilsk/semaphore/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/kamilsk/semaphore/?branch=master)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
 ```bash
 $ brew install kamilsk/tap/semaphore
+$ semaphore completion bash > /path/to/bash_completion.d/semaphore.sh
+$ semaphore completion zsh  > /path/to/zsh-completions/_semaphore.zsh
 ```
 
 ---
