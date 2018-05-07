@@ -1,9 +1,9 @@
 class Check < Formula
   desc "Check Something as a Service."
   homepage "https://github.com/kamilsk/check"
-  url "https://github.com/kamilsk/check/releases/download/1.0.2/check_1.0.2_macOS-64bit.tar.gz"
-  version "1.0.2"
-  sha256 "84d449d6611eb6d51213c866f66003fb15be1a5fb1ac3ef16642b83af07389ac"
+  url "https://github.com/kamilsk/check/releases/download/1.1.0/check_1.1.0_macOS-64bit.tar.gz"
+  version "1.1.0"
+  sha256 "d4a9d439ea6cba9a6f04d3beac8b1d72b78912f06b9ad6a3d67bcce0df6dceb9"
 
   def install
     bin.install "check"
