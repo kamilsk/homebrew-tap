@@ -46,7 +46,18 @@ $ form-api completion bash > /path/to/bash_completion.d/form-api.sh
 $ form-api completion zsh  > /path/to/zsh-completions/_form-api.zsh
 ```
 
-## [guard]()
+## [guard][page_guard_promo]
+
+[![Build Status][icon_forma_build]][page_forma_build]
+[![License][icon_license]][page_forma_license]
+
+```bash
+$ brew install kamilsk/tap/guard
+$ guard    completion bash > /path/to/bash_completion.d/guard.sh
+$ guard    completion zsh  > /path/to/zsh-completions/_guard.zsh
+$ guardctl completion bash > /path/to/bash_completion.d/guardctl.sh
+$ guardctl completion zsh  > /path/to/zsh-completions/_guardctl.zsh
+```
 
 ## [passport](https://kamilsk.github.io/passport/)
 
@@ -132,3 +143,9 @@ made with ❤️ by [OctoLab](https://www.octolab.org/)
 [page_forma_license]:    https://github.com/kamilsk/form-api/blob/master/LICENSE
 [page_forma_promo]:      https://github.com/kamilsk/form-api
 [page_forma_quality]:    https://scrutinizer-ci.com/g/kamilsk/form-api/?branch=master
+
+[icon_guard_build]:      https://travis-ci.org/kamilsk/guard.svg?branch=master
+[page_guard_build]:      https://travis-ci.org/kamilsk/guard
+[page_guard_license]:    https://github.com/kamilsk/guard/blob/master/LICENSE
+[page_guard_promo]:      https://github.com/kamilsk/guard
+[page_guard_quality]:    https://scrutinizer-ci.com/g/kamilsk/guard/?branch=master
