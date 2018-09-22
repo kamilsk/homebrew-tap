@@ -73,12 +73,14 @@ $ passport completion bash > /path/to/bash_completion.d/passport.sh
 $ passport completion zsh  > /path/to/zsh-completions/_passport.zsh
 ```
 
-## [retry](https://github.com/kamilsk/retry)
+## [retry][page_retry_promo]
 
-[![Build Status](https://travis-ci.org/kamilsk/retry.svg?branch=master)](https://travis-ci.org/kamilsk/retry)
-[![Code Coverage](https://scrutinizer-ci.com/g/kamilsk/retry/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/kamilsk/retry/?branch=master)
-[![Code Quality](https://scrutinizer-ci.com/g/kamilsk/retry/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/kamilsk/retry/?branch=master)
-[![License][icon_license]](LICENSE)
+[![Awesome][icon_awesome]](https://github.com/avelino/awesome-go#utilities)
+[![Build Status][icon_retry_build]][page_retry_build]
+[![Code Coverage][icon_retry_coverage]][icon_retry_coverage]
+[![Code Quality][icon_retry_quality]][page_retry_quality]
+[![License][icon_license]][page_retry_license]
+[![Gitter][icon_gitter]][gitter_retry]
 
 ```bash
 $ brew install kamilsk/tap/retry
@@ -108,6 +110,7 @@ made with ❤️ by [OctoLab](https://www.octolab.org/)
 
 [analytics_pixel]: https://ga-beacon.appspot.com/UA-109817251-23/unsupported/homebrew-tap/readme?pixel
 
+[icon_awesome]:    https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg
 [icon_gitter]:     https://badges.gitter.im/Join%20Chat.svg
 [icon_license]:    https://img.shields.io/badge/license-MIT-blue.svg
 [icon_patreon]:    https://img.shields.io/badge/patreon-donate-orange.svg
@@ -159,3 +162,12 @@ made with ❤️ by [OctoLab](https://www.octolab.org/)
 [page_passport_license]:  https://github.com/kamilsk/passport/blob/master/LICENSE
 [page_passport_promo]:    https://github.com/kamilsk/passport
 [page_passport_quality]:  https://scrutinizer-ci.com/g/kamilsk/passport/?branch=master
+
+[gitter_retry]:           https://gitter.im/kamilsk/retry
+[icon_retry_build]:       https://travis-ci.org/kamilsk/retry.svg?branch=master
+[icon_retry_coverage]:    https://scrutinizer-ci.com/g/kamilsk/retry/badges/coverage.png?b=master
+[icon_retry_quality]:     https://scrutinizer-ci.com/g/kamilsk/retry/badges/quality-score.png?b=master
+[page_retry_build]:       https://travis-ci.org/kamilsk/retry
+[page_retry_license]:     https://github.com/kamilsk/retry/blob/master/LICENSE
+[page_retry_promo]:       https://github.com/kamilsk/retry
+[page_retry_quality]:     https://scrutinizer-ci.com/g/kamilsk/retry/?branch=master
