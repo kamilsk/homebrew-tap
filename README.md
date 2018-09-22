@@ -18,12 +18,13 @@ $ check completion bash > /path/to/bash_completion.d/check.sh
 $ check completion zsh  > /path/to/zsh-completions/_check.zsh
 ```
 
-## [click](https://kamilsk.github.io/click/)
+## [click][page_click_promo]
 
-[![Build Status](https://travis-ci.org/kamilsk/click.svg?branch=master)](https://travis-ci.org/kamilsk/click)
-[![Code Coverage](https://scrutinizer-ci.com/g/kamilsk/click/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/kamilsk/click/?branch=master)
-[![Code Quality](https://scrutinizer-ci.com/g/kamilsk/click/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/kamilsk/click/?branch=master)
-[![License][icon_license]](LICENSE)
+[![Build Status][icon_click_build]][page_click_build]
+[![Code Coverage][icon_click_coverage]][icon_click_coverage]
+[![Code Quality][icon_click_quality]][page_click_quality]
+[![License][icon_license]][page_click_license]
+[![Gitter][icon_gitter]][gitter_click]
 
 ```bash
 $ brew install kamilsk/tap/click
@@ -31,7 +32,7 @@ $ click completion bash > /path/to/bash_completion.d/click.sh
 $ click completion zsh  > /path/to/zsh-completions/_click.zsh
 ```
 
-## [form-api](https://kamilsk.github.io/form-api/)
+## [form-api][page_forma_promo]
 
 [![Build Status][icon_forma_build]][page_forma_build]
 [![Code Coverage][icon_forma_coverage]][icon_forma_coverage]
@@ -105,6 +106,15 @@ made with ❤️ by [OctoLab](https://www.octolab.org/)
 [page_promo]:      https://github.com/kamilsk/homebrew-tap
 
 [twitter_publish]: https://twitter.com/intent/tweet?text=Homebrew%20Formulae%20of%20my%20binaries&url=https://github.com/kamilsk/homebrew-tap&via=ikamilsk&hashtags=brew,binaries
+
+[gitter_click]:          https://gitter.im/kamilsk/click
+[icon_click_build]:      https://travis-ci.org/kamilsk/click.svg?branch=master
+[icon_click_coverage]:   https://scrutinizer-ci.com/g/kamilsk/click/badges/coverage.png?b=master
+[icon_click_quality]:    https://scrutinizer-ci.com/g/kamilsk/click/badges/quality-score.png?b=master
+[page_click_build]:      https://travis-ci.org/kamilsk/click
+[page_click_license]:    https://github.com/kamilsk/click/blob/master/LICENSE
+[page_click_promo]:      https://github.com/kamilsk/click
+[page_click_quality]:    https://scrutinizer-ci.com/g/kamilsk/click/?branch=master
 
 [gitter_forma]:          https://gitter.im/kamilsk/form-api
 [icon_forma_build]:      https://travis-ci.org/kamilsk/form-api.svg?branch=master
