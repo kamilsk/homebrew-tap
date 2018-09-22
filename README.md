@@ -1,4 +1,4 @@
-> # homebrew-tap [![Tweet][icon_twitter]][twitter_publish]
+> # 🤖 homebrew-tap [![Tweet][icon_twitter]][twitter_publish]
 > [![Analytics][analytics_pixel]][page_promo]
 > Homebrew Formulae of my binaries.
 
@@ -37,6 +37,7 @@ $ click completion zsh  > /path/to/zsh-completions/_click.zsh
 [![Code Coverage][icon_forma_coverage]][icon_forma_coverage]
 [![Code Quality][icon_forma_quality]][page_forma_quality]
 [![License][icon_license]][page_forma_license]
+[![Gitter][icon_gitter]][gitter_forma]
 
 ```bash
 $ brew install kamilsk/tap/form-api
@@ -103,7 +104,9 @@ made with ❤️ by [OctoLab](https://www.octolab.org/)
 
 [page_promo]:      https://github.com/kamilsk/homebrew-tap
 
+[twitter_publish]: https://twitter.com/intent/tweet?text=Homebrew%20Formulae%20of%20my%20binaries&url=https://github.com/kamilsk/homebrew-tap&via=ikamilsk&hashtags=brew,binaries
 
+[gitter_forma]:          https://gitter.im/kamilsk/form-api
 [icon_forma_build]:      https://travis-ci.org/kamilsk/form-api.svg?branch=master
 [icon_forma_coverage]:   https://scrutinizer-ci.com/g/kamilsk/form-api/badges/coverage.png?b=master
 [icon_forma_quality]:    https://scrutinizer-ci.com/g/kamilsk/form-api/badges/quality-score.png?b=master
@@ -111,6 +114,3 @@ made with ❤️ by [OctoLab](https://www.octolab.org/)
 [page_forma_license]:    https://github.com/kamilsk/form-api/blob/master/LICENSE
 [page_forma_promo]:      https://github.com/kamilsk/form-api
 [page_forma_quality]:    https://scrutinizer-ci.com/g/kamilsk/form-api/?branch=master
-
-
-[twitter_publish]: https://twitter.com/intent/tweet?text=Homebrew%20Formulae%20of%20my%20binaries&url=https://github.com/kamilsk/homebrew-tap&via=ikamilsk&hashtags=brew,binaries
