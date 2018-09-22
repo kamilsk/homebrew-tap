@@ -5,12 +5,12 @@
 [![Patreon][icon_patreon]](https://www.patreon.com/octolab)
 [![License][icon_license]](LICENSE)
 
-## [check](https://github.com/kamilsk/check)
+## [check][page_check_promo]
 
-[![Build Status](https://travis-ci.org/kamilsk/check.svg?branch=master)](https://travis-ci.org/kamilsk/check)
-[![Code Coverage](https://scrutinizer-ci.com/g/kamilsk/check/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/kamilsk/check/?branch=master)
-[![Code Quality](https://scrutinizer-ci.com/g/kamilsk/check/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/kamilsk/check/?branch=master)
-[![License][icon_license]](LICENSE)
+[![Build Status][icon_check_build]][page_check_build]
+[![Code Coverage][icon_check_coverage]][icon_check_coverage]
+[![Code Quality][icon_check_quality]][page_check_quality]
+[![License][icon_license]][page_check_license]
 
 ```bash
 $ brew install kamilsk/tap/check
@@ -106,6 +106,14 @@ made with ❤️ by [OctoLab](https://www.octolab.org/)
 [page_promo]:      https://github.com/kamilsk/homebrew-tap
 
 [twitter_publish]: https://twitter.com/intent/tweet?text=Homebrew%20Formulae%20of%20my%20binaries&url=https://github.com/kamilsk/homebrew-tap&via=ikamilsk&hashtags=brew,binaries
+
+[icon_check_build]:      https://travis-ci.org/kamilsk/check.svg?branch=master
+[icon_check_coverage]:   https://scrutinizer-ci.com/g/kamilsk/check/badges/coverage.png?b=master
+[icon_check_quality]:    https://scrutinizer-ci.com/g/kamilsk/check/badges/quality-score.png?b=master
+[page_check_build]:      https://travis-ci.org/kamilsk/check
+[page_check_license]:    https://github.com/kamilsk/check/blob/master/LICENSE
+[page_check_promo]:      https://github.com/kamilsk/check
+[page_check_quality]:    https://scrutinizer-ci.com/g/kamilsk/check/?branch=master
 
 [gitter_click]:          https://gitter.im/kamilsk/click
 [icon_click_build]:      https://travis-ci.org/kamilsk/click.svg?branch=master
