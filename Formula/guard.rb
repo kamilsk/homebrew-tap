@@ -1,9 +1,9 @@
 class Guard < Formula
   desc "Access Control as a Service"
   homepage "https://kamilsk.github.io/guard/"
-  url "https://github.com/kamilsk/guard/releases/download/0.1.0/guard_0.1.0_macOS-64bit.tar.gz"
-  version "0.1.0"
-  sha256 "1ab6072c0465192f84c1502bbde9f99ebda1469547a443034a1183437b18afd4"
+  url "https://github.com/kamilsk/guard/releases/download/0.1.1/guard_0.1.1_macOS-64bit.tar.gz"
+  version "0.1.1"
+  sha256 "5a8eea8b1772e34bc2c3e4a0ee1ce04343dd06a0d66a67e07db050b2a5f1b49e"
 
   def install
     bin.install "guard"
