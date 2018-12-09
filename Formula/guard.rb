@@ -1,9 +1,9 @@
 class Guard < Formula
   desc "Paywall as a Service"
   homepage "https://kamilsk.github.io/guard/"
-  url "https://github.com/kamilsk/guard/releases/download/1.3.1/guard_1.3.1_macOS-64bit.tar.gz"
-  version "1.3.1"
-  sha256 "3955b58fe3832c9aa41e820d08b5bd5c054410a73ecfa5064f87475d6a9489fe"
+  url "https://github.com/kamilsk/guard/releases/download/1.3.2/guard_1.3.2_macOS-64bit.tar.gz"
+  version "1.3.2"
+  sha256 "231fe33b7412bf1a99a8fbbc925dba8152455fbd65dff82ae50f1ba9dda449a4"
 
   def install
     bin.install "guard"
