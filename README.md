@@ -166,20 +166,22 @@ $ retry completion zsh  > /path/to/zsh-completions/_retry.zsh
 ## [semaphore][page_semaphore_promo]
 
 [![Awesome][icon_awesome]](https://github.com/avelino/awesome-go#goroutines)
-[![Build Status][icon_semaphore_build]][page_semaphore_build]
-[![Code Coverage][icon_semaphore_coverage]][icon_semaphore_coverage]
-[![Code Quality][icon_semaphore_quality]][page_semaphore_quality]
-[![License][icon_license]][page_semaphore_license]
 [![Gitter][icon_gitter]][gitter_semaphore]
+[![Build Status][icon_semaphore_build]][page_semaphore_build]
+[![Code Coverage][icon_semaphore_coverage]][page_semaphore_coverage]
+[![Code Quality][icon_semaphore_quality]][page_semaphore_quality]
+[![License][icon_semaphore_license]][page_semaphore_license]
 
 [gitter_semaphore]:        https://gitter.im/kamilsk/semaphore
 [icon_semaphore_build]:    https://travis-ci.org/kamilsk/semaphore.svg?branch=master
 [icon_semaphore_coverage]: https://scrutinizer-ci.com/g/kamilsk/semaphore/badges/coverage.png?b=master
 [icon_semaphore_quality]:  https://scrutinizer-ci.com/g/kamilsk/semaphore/badges/quality-score.png?b=master
-[page_semaphore_build]:    https://travis-ci.org/kamilsk/semaphore
-[page_semaphore_license]:  https://github.com/kamilsk/semaphore/blob/master/LICENSE
+[icon_semaphore_license]:  https://img.shields.io/badge/license-MIT-blue.svg
 [page_semaphore_promo]:    https://github.com/kamilsk/semaphore
+[page_semaphore_build]:    https://travis-ci.org/kamilsk/semaphore
+[page_semaphore_coverage]: https://scrutinizer-ci.com/g/kamilsk/semaphore/?branch=master
 [page_semaphore_quality]:  https://scrutinizer-ci.com/g/kamilsk/semaphore/?branch=master
+[page_semaphore_license]:  https://github.com/kamilsk/semaphore/blob/master/LICENSE
 
 ```bash
 $ brew install kamilsk/tap/semaphore
