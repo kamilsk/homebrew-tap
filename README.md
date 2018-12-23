@@ -55,20 +55,22 @@ $ click completion zsh  > /path/to/zsh-completions/_click.zsh
 
 ## [form-api][page_forma_promo]
 
-[![Build Status][icon_forma_build]][page_forma_build]
-[![Code Coverage][icon_forma_coverage]][icon_forma_coverage]
-[![Code Quality][icon_forma_quality]][page_forma_quality]
-[![License][icon_license]][page_forma_license]
 [![Gitter][icon_gitter]][gitter_forma]
+[![Build Status][icon_forma_build]][page_forma_build]
+[![Code Coverage][icon_forma_coverage]][page_forma_coverage]
+[![Code Quality][icon_forma_quality]][page_forma_quality]
+[![License][icon_forma_license]][page_forma_license]
 
 [gitter_forma]:        https://gitter.im/kamilsk/form-api
 [icon_forma_build]:    https://travis-ci.org/kamilsk/form-api.svg?branch=master
 [icon_forma_coverage]: https://scrutinizer-ci.com/g/kamilsk/form-api/badges/coverage.png?b=master
 [icon_forma_quality]:  https://scrutinizer-ci.com/g/kamilsk/form-api/badges/quality-score.png?b=master
-[page_forma_build]:    https://travis-ci.org/kamilsk/form-api
-[page_forma_license]:  https://github.com/kamilsk/form-api/blob/master/LICENSE
+[icon_forma_license]:  https://img.shields.io/badge/license-MIT-blue.svg
 [page_forma_promo]:    https://github.com/kamilsk/form-api
+[page_forma_build]:    https://travis-ci.org/kamilsk/form-api
+[page_forma_coverage]: https://scrutinizer-ci.com/g/kamilsk/form-api/?branch=master
 [page_forma_quality]:  https://scrutinizer-ci.com/g/kamilsk/form-api/?branch=master
+[page_forma_license]:  https://github.com/kamilsk/form-api/blob/master/LICENSE
 
 ```bash
 $ brew install kamilsk/tap/form-api
