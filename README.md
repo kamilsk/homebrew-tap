@@ -78,6 +78,21 @@ $ form-api completion bash > /path/to/bash_completion.d/form-api.sh
 $ form-api completion zsh  > /path/to/zsh-completions/_form-api.zsh
 ```
 
+## [forward][page_forward_promo]
+
+[![Build Status][icon_forward_build]][page_forward_build]
+[![License][icon_forward_license]][page_forward_license]
+
+[icon_forward_build]:   https://travis-ci.org/kamilsk/forward.svg?branch=master
+[icon_forward_license]: https://img.shields.io/badge/license-MIT-blue.svg
+[page_forward_promo]:   https://github.com/kamilsk/forward
+[page_forward_build]:   https://travis-ci.org/kamilsk/forward
+[page_forward_license]: https://github.com/kamilsk/forward/blob/master/LICENSE
+
+```bash
+$ brew install kamilsk/tap/forward
+```
+
 ## [guard][page_guard_promo]
 
 [![Build Status][icon_forma_build]][page_forma_build]
