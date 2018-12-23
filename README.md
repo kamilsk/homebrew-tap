@@ -30,20 +30,22 @@ $ check completion zsh  > /path/to/zsh-completions/_check.zsh
 
 ## [click][page_click_promo]
 
-[![Build Status][icon_click_build]][page_click_build]
-[![Code Coverage][icon_click_coverage]][icon_click_coverage]
-[![Code Quality][icon_click_quality]][page_click_quality]
-[![License][icon_license]][page_click_license]
 [![Gitter][icon_gitter]][gitter_click]
+[![Build Status][icon_click_build]][page_click_build]
+[![Code Coverage][icon_click_coverage]][page_click_coverage]
+[![Code Quality][icon_click_quality]][page_click_quality]
+[![License][icon_click_license]][page_click_license]
 
 [gitter_click]:        https://gitter.im/kamilsk/click
 [icon_click_build]:    https://travis-ci.org/kamilsk/click.svg?branch=master
 [icon_click_coverage]: https://scrutinizer-ci.com/g/kamilsk/click/badges/coverage.png?b=master
 [icon_click_quality]:  https://scrutinizer-ci.com/g/kamilsk/click/badges/quality-score.png?b=master
-[page_click_build]:    https://travis-ci.org/kamilsk/click
-[page_click_license]:  https://github.com/kamilsk/click/blob/master/LICENSE
+[icon_click_license]:  https://img.shields.io/badge/license-MIT-blue.svg
 [page_click_promo]:    https://github.com/kamilsk/click
+[page_click_build]:    https://travis-ci.org/kamilsk/click
+[page_click_coverage]: https://scrutinizer-ci.com/g/kamilsk/click/?branch=master
 [page_click_quality]:  https://scrutinizer-ci.com/g/kamilsk/click/?branch=master
+[page_click_license]:  https://github.com/kamilsk/click/blob/master/LICENSE
 
 ```bash
 $ brew install kamilsk/tap/click
