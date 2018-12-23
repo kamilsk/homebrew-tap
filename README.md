@@ -95,14 +95,14 @@ $ brew install kamilsk/tap/forward
 
 ## [guard][page_guard_promo]
 
-[![Build Status][icon_forma_build]][page_forma_build]
-[![License][icon_license]][page_forma_license]
+[![Build Status][icon_guard_build]][page_guard_build]
+[![License][icon_guard_license]][page_guard_license]
 
 [icon_guard_build]:   https://travis-ci.org/kamilsk/guard.svg?branch=master
+[icon_guard_license]: https://img.shields.io/badge/license-MIT-blue.svg
+[page_guard_promo]:   https://github.com/kamilsk/guard
 [page_guard_build]:   https://travis-ci.org/kamilsk/guard
 [page_guard_license]: https://github.com/kamilsk/guard/blob/master/LICENSE
-[page_guard_promo]:   https://github.com/kamilsk/guard
-[page_guard_quality]: https://scrutinizer-ci.com/g/kamilsk/guard/?branch=master
 
 ```bash
 $ brew install kamilsk/tap/guard
