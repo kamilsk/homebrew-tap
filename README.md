@@ -8,17 +8,19 @@
 ## [check][page_check_promo]
 
 [![Build Status][icon_check_build]][page_check_build]
-[![Code Coverage][icon_check_coverage]][icon_check_coverage]
+[![Code Coverage][icon_check_coverage]][page_check_coverage]
 [![Code Quality][icon_check_quality]][page_check_quality]
-[![License][icon_license]][page_check_license]
+[![License][icon_check_license]][page_check_license]
 
 [icon_check_build]:    https://travis-ci.org/kamilsk/check.svg?branch=master
 [icon_check_coverage]: https://scrutinizer-ci.com/g/kamilsk/check/badges/coverage.png?b=master
 [icon_check_quality]:  https://scrutinizer-ci.com/g/kamilsk/check/badges/quality-score.png?b=master
-[page_check_build]:    https://travis-ci.org/kamilsk/check
-[page_check_license]:  https://github.com/kamilsk/check/blob/master/LICENSE
+[icon_check_license]:  https://img.shields.io/badge/license-MIT-blue.svg
 [page_check_promo]:    https://github.com/kamilsk/check
+[page_check_build]:    https://travis-ci.org/kamilsk/check
+[page_check_coverage]: https://scrutinizer-ci.com/g/kamilsk/check/?branch=master
 [page_check_quality]:  https://scrutinizer-ci.com/g/kamilsk/check/?branch=master
+[page_check_license]:  https://github.com/kamilsk/check/blob/master/LICENSE
 
 ```bash
 $ brew install kamilsk/tap/check
