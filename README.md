@@ -114,20 +114,22 @@ $ guardctl completion zsh  > /path/to/zsh-completions/_guardctl.zsh
 
 ## [passport][page_passport_promo]
 
-[![Build Status][icon_passport_build]][page_passport_build]
-[![Code Coverage][icon_passport_coverage]][icon_passport_coverage]
-[![Code Quality][icon_passport_quality]][page_passport_quality]
-[![License][icon_license]][page_passport_license]
 [![Gitter][icon_gitter]][gitter_passport]
+[![Build Status][icon_passport_build]][page_passport_build]
+[![Code Coverage][icon_passport_coverage]][page_passport_coverage]
+[![Code Quality][icon_passport_quality]][page_passport_quality]
+[![License][icon_passport_license]][page_passport_license]
 
 [gitter_passport]:        https://gitter.im/kamilsk/passport
 [icon_passport_build]:    https://travis-ci.org/kamilsk/passport.svg?branch=master
 [icon_passport_coverage]: https://scrutinizer-ci.com/g/kamilsk/passport/badges/coverage.png?b=master
 [icon_passport_quality]:  https://scrutinizer-ci.com/g/kamilsk/passport/badges/quality-score.png?b=master
-[page_passport_build]:    https://travis-ci.org/kamilsk/passport
-[page_passport_license]:  https://github.com/kamilsk/passport/blob/master/LICENSE
+[icon_passport_license]:  https://img.shields.io/badge/license-MIT-blue.svg
 [page_passport_promo]:    https://github.com/kamilsk/passport
+[page_passport_build]:    https://travis-ci.org/kamilsk/passport
+[page_passport_coverage]: https://scrutinizer-ci.com/g/kamilsk/passport/?branch=master
 [page_passport_quality]:  https://scrutinizer-ci.com/g/kamilsk/passport/?branch=master
+[page_passport_license]:  https://github.com/kamilsk/passport/blob/master/LICENSE
 
 ```bash
 $ brew install kamilsk/tap/passport
