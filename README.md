@@ -140,20 +140,22 @@ $ passport completion zsh  > /path/to/zsh-completions/_passport.zsh
 ## [retry][page_retry_promo]
 
 [![Awesome][icon_awesome]](https://github.com/avelino/awesome-go#utilities)
-[![Build Status][icon_retry_build]][page_retry_build]
-[![Code Coverage][icon_retry_coverage]][icon_retry_coverage]
-[![Code Quality][icon_retry_quality]][page_retry_quality]
-[![License][icon_license]][page_retry_license]
 [![Gitter][icon_gitter]][gitter_retry]
+[![Build Status][icon_retry_build]][page_retry_build]
+[![Code Coverage][icon_retry_coverage]][page_retry_coverage]
+[![Code Quality][icon_retry_quality]][page_retry_quality]
+[![License][icon_retry_license]][page_retry_license]
 
 [gitter_retry]:        https://gitter.im/kamilsk/retry
 [icon_retry_build]:    https://travis-ci.org/kamilsk/retry.svg?branch=master
 [icon_retry_coverage]: https://scrutinizer-ci.com/g/kamilsk/retry/badges/coverage.png?b=master
 [icon_retry_quality]:  https://scrutinizer-ci.com/g/kamilsk/retry/badges/quality-score.png?b=master
-[page_retry_build]:    https://travis-ci.org/kamilsk/retry
-[page_retry_license]:  https://github.com/kamilsk/retry/blob/master/LICENSE
+[icon_retry_license]:  https://img.shields.io/badge/license-MIT-blue.svg
 [page_retry_promo]:    https://github.com/kamilsk/retry
+[page_retry_build]:    https://travis-ci.org/kamilsk/retry
+[page_retry_coverage]: https://scrutinizer-ci.com/g/kamilsk/retry/?branch=master
 [page_retry_quality]:  https://scrutinizer-ci.com/g/kamilsk/retry/?branch=master
+[page_retry_license]:  https://github.com/kamilsk/retry/blob/master/LICENSE
 
 ```bash
 $ brew install kamilsk/tap/retry
