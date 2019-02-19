@@ -2,9 +2,9 @@
 class Semaphore < Formula
   desc "Semaphore pattern implementation with timeout of lock/unlock operations based on channels."
   homepage "https://github.com/kamilsk/semaphore"
-  url "https://github.com/kamilsk/semaphore/releases/download/4.3.1/semaphore_4.3.1_macOS-64bit.tar.gz"
-  version "4.3.1"
-  sha256 "3b8c2206d6581db59240ea7e92ac9a6df5b9118f151921ae28b84b895129a6db"
+  url "https://github.com/kamilsk/semaphore/releases/download/v4.4.1/semaphore_4.4.1_macOS-64bit.tar.gz"
+  version "4.4.1"
+  sha256 "f8740392f79e8391370c76da25cd31f231ca17e199870963209c6b76e044027d"
 
   def install
     bin.install "semaphore"
