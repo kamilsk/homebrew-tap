@@ -2,9 +2,9 @@
 class Retry < Formula
   desc "Functional mechanism based on channels to perform actions repetitively until successful."
   homepage "https://github.com/kamilsk/retry"
-  url "https://github.com/kamilsk/retry/releases/download/3.3.3/retry_3.3.3_macOS-64bit.tar.gz"
-  version "3.3.3"
-  sha256 "eccf5b37bb94e994c6adc738d35a231e75eef4c206f8009ab3de057074b7d1b3"
+  url "https://github.com/kamilsk/retry/releases/download/v3.4.4/retry_3.4.4_macOS-64bit.tar.gz"
+  version "3.4.4"
+  sha256 "058ad05d53711765e156882fae9a8e75704fdb24665f9fe43fd52c7ba3e3de6d"
 
   def install
     bin.install "retry"
