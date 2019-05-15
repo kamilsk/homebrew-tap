@@ -2,9 +2,9 @@
 class Lift < Formula
   desc "Up your service locally."
   homepage "https://github.com/kamilsk/lift"
-  url "https://github.com/kamilsk/lift/releases/download/0.0.1/lift_0.0.1_macOS-64bit.tar.gz"
-  version "0.0.1"
-  sha256 "866048cc16ecc74bede0abec08f0d305917150e2607586350badb98cedb1fd70"
+  url "https://github.com/kamilsk/lift/releases/download/0.0.2/lift_0.0.2_macOS-64bit.tar.gz"
+  version "0.0.2"
+  sha256 "bb4cf3682ca55a8f605ac9783dc71b17b4f16c653c9b8cc2b4776aef3af025f7"
 
   def install
     bin.install "lift"
