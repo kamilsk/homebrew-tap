@@ -4,7 +4,7 @@ class Lift < Formula
   homepage "https://github.com/kamilsk/lift"
   url "https://github.com/kamilsk/lift/releases/download/0.0.2/lift_0.0.2_macOS-64bit.tar.gz"
   version "0.0.2"
-  sha256 "bb4cf3682ca55a8f605ac9783dc71b17b4f16c653c9b8cc2b4776aef3af025f7"
+  sha256 "bf091cef55bb078e4c35789be9ff6d84919bb7f7fff941491adbf0399594e94a"
 
   def install
     bin.install "lift"
