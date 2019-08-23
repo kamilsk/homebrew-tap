@@ -2,14 +2,17 @@
 class Lift < Formula
   desc "Up your service locally."
   homepage "https://github.com/kamilsk/lift"
-  version "0.1.1"
+  version "0.2.0"
+  bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/kamilsk/lift/releases/download/0.1.1/lift_0.1.1_macOS-64bit.tar.gz"
-    sha256 "9733726f072cf7daa44f5fc3af6a5172dbafaf673d22079f31b462c3522b7f31"
+    url "https://github.com/kamilsk/lift/releases/download/0.2.0/lift_0.2.0_macOS-64bit.tar.gz"
+    sha256 "c0d2ed46349cf8d95a2c8a42efdd447b789a56265184fb890985685673eae918"
   elsif OS.linux?
-    url "https://github.com/kamilsk/lift/releases/download/0.1.1/lift_0.1.1_Linux-64bit.tar.gz"
-    sha256 "3a87738ab7bfbb902926ee149a3f5b210cb6ab533e673661fbb73dca62feae84"
+    if Hardware::CPU.intel?
+      url "https://github.com/kamilsk/lift/releases/download/0.2.0/lift_0.2.0_Linux-64bit.tar.gz"
+      sha256 "c1d42a0ee191002985319dd2e26f55933f014260eb7d76a41f50f0aa98579894"
+    end
   end
 
   def install
