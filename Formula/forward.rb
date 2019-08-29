@@ -2,16 +2,16 @@
 class Forward < Formula
   desc "Extended kubectl port-forward - reliable multiple port forwarding."
   homepage "https://github.com/kamilsk/forward"
-  version "0.5.3"
+  version "0.5.4"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/kamilsk/forward/releases/download/0.5.3/forward_0.5.3_macOS-64bit.tar.gz"
-    sha256 "1825a56f3bc270ec9f0b5390af15d74b8bae5782fabc9ff8d695dc7e966bb4da"
+    url "https://github.com/kamilsk/forward/releases/download/0.5.4/forward_0.5.4_macOS-64bit.tar.gz"
+    sha256 "894b21f77859005fa6d708293adb8ec67d522a4c720a7980249df2614b6fef04"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/kamilsk/forward/releases/download/0.5.3/forward_0.5.3_Linux-64bit.tar.gz"
-      sha256 "7607e276f530b9468ff72af32e29131fe499b3c099e4ddf792d0d329ebc84f5b"
+      url "https://github.com/kamilsk/forward/releases/download/0.5.4/forward_0.5.4_Linux-64bit.tar.gz"
+      sha256 "bb90a73f2608697a082391e4ceca9f45e33e4c706495f7ffda79d81f6ab56426"
     end
   end
 
