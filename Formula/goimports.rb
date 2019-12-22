@@ -11,12 +11,12 @@ as a replacement for your editor's gofmt-on-save hook.
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/kamilsk/go-tools/releases/download/0.0.1/goimports_0.0.1_macOS-64bit.tar.gz"
-    sha256 "9864bb8aea74a8e1c5a5a0bfca3e101ee7232030fe88a5aa31cea16ebe0bb672"
+    url "https://github.com/kamilsk/go-tools/releases/download/v0.0.1/goimports_0.0.1_macOS-64bit.tar.gz"
+    sha256 "69215787c3f5e7819038a05814b8939ebde024aa47eaf1f33e2b38f7416e3e5b"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/kamilsk/go-tools/releases/download/0.0.1/goimports_0.0.1_Linux-64bit.tar.gz"
-      sha256 "fa7513aab66de1a69053f5e3bd78883267010ba89f7fd311bcbc9f6691f574f8"
+      url "https://github.com/kamilsk/go-tools/releases/download/v0.0.1/goimports_0.0.1_Linux-64bit.tar.gz"
+      sha256 "03f9149c7d04d2b24243d0683194d23e394cfc9e4d25eccc3dfc4ac914e9fefd"
     end
   end
 
