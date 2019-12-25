@@ -2,25 +2,20 @@
 class Lift < Formula
   desc "Up your service locally."
   homepage "https://github.com/kamilsk/lift"
-  version "0.2.2"
+  version "0.2.3"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/kamilsk/lift/releases/download/0.2.2/lift_0.2.2_macOS-64bit.tar.gz"
-    sha256 "b296b24e5431fc96f7029fe646785909df2d421e4533cc2d2a5c2506ac4ed5a5"
+    url "https://github.com/kamilsk/lift/releases/download/v0.2.3/lift_0.2.3_macOS-64bit.tar.gz"
+    sha256 "5d6f81e6162ea72548b31f79dc62cbb919e0174490c2b4795da5f6ef6fd4f2b2"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/kamilsk/lift/releases/download/0.2.2/lift_0.2.2_Linux-64bit.tar.gz"
-      sha256 "f41571e30362b8f8dfe6dd2a0d79c39d5d92aa060d9fbd3f96c65bb19f9b99f3"
+      url "https://github.com/kamilsk/lift/releases/download/v0.2.3/lift_0.2.3_Linux-64bit.tar.gz"
+      sha256 "fa3b31f170e68f787992c332a5a5cc52f5feb9c8bb22881810687bee544026cc"
     end
   end
 
   def install
     bin.install "lift"
-  end
-
-  def caveats; <<~EOS
-    Use `eval $(lift up)`
-  EOS
   end
 end
