@@ -2,16 +2,16 @@
 class Egg < Formula
   desc "Extended go get - alternative for the standard "go get" with a few little but useful features."
   homepage "https://github.com/kamilsk/egg"
-  version "0.0.2"
+  version "0.0.3"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/kamilsk/egg/releases/download/v0.0.2/egg_0.0.2_macOS-64bit.tar.gz"
-    sha256 "212a30aef13481de7cc0e6474e55b58a639d1ab8a8ff06d96b7d85dd70cd9602"
+    url "https://github.com/kamilsk/egg/releases/download/v0.0.3/egg_0.0.3_macOS-64bit.tar.gz"
+    sha256 "2f943970fa3aaf11026d13beca9b27508129838ee044f2748864e07acbdb5d1b"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/kamilsk/egg/releases/download/v0.0.2/egg_0.0.2_Linux-64bit.tar.gz"
-      sha256 "f6df5ee648705b508a2edf0ffcc8441ded3a78c2a0ea697f6e5ff48332888bf9"
+      url "https://github.com/kamilsk/egg/releases/download/v0.0.3/egg_0.0.3_Linux-64bit.tar.gz"
+      sha256 "dba68a7f4ee0508ed82c8388eb1a000299852fd042c69cccf984483256375b2d"
     end
   end
 
