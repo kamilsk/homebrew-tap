@@ -7,16 +7,16 @@ your code in the same style as gofmt so it can be used
 as a replacement for your editor's gofmt-on-save hook.
 "
   homepage "https://github.com/kamilsk/go-tools"
-  version "0.0.1"
+  version "0.0.2"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/kamilsk/go-tools/releases/download/v0.0.1/goimports_0.0.1_macOS-64bit.tar.gz"
-    sha256 "69215787c3f5e7819038a05814b8939ebde024aa47eaf1f33e2b38f7416e3e5b"
+    url "https://github.com/kamilsk/go-tools/releases/download/v0.0.2/goimports_0.0.2_macOS-64bit.tar.gz"
+    sha256 "bf82cbd4e8edebacd801b3e2ea0c73238cbfb50023fad458f576278f7d0da841"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/kamilsk/go-tools/releases/download/v0.0.1/goimports_0.0.1_Linux-64bit.tar.gz"
-      sha256 "03f9149c7d04d2b24243d0683194d23e394cfc9e4d25eccc3dfc4ac914e9fefd"
+      url "https://github.com/kamilsk/go-tools/releases/download/v0.0.2/goimports_0.0.2_Linux-64bit.tar.gz"
+      sha256 "24e3abe92273f1bfa68c74b3a7ece408991e3382b49ca067deb4dfeff4b9f756"
     end
   end
 
