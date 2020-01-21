@@ -2,20 +2,29 @@
 class Egg < Formula
   desc "Extended go get - alternative for the standard "go get" with a few little but useful features."
   homepage "https://github.com/kamilsk/egg"
-  version "0.0.8"
+  version "0.0.9"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/kamilsk/egg/releases/download/v0.0.8/egg_0.0.8_macOS-64bit.tar.gz"
-    sha256 "0ed0f42dba2d55c0015c91c5c73f36719b9613b8617b77e4ef8a05266bfed479"
+    url "https://github.com/kamilsk/egg/releases/download/v0.0.9/egg_0.0.9_macOS-64bit.tar.gz"
+    sha256 "c913d74d373085f9159caa462de93b21ae8d7796e378b9d7253abfb8612c8ae9"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/kamilsk/egg/releases/download/v0.0.8/egg_0.0.8_Linux-64bit.tar.gz"
-      sha256 "6700053d2aecabc21701924a3403a67232d9f5304fb554e2eb6dc47f6a4715cb"
+      url "https://github.com/kamilsk/egg/releases/download/v0.0.9/egg_0.0.9_Linux-64bit.tar.gz"
+      sha256 "46bdad23ec74a6002ec48c6bc2fbd23bcfefde6c9de9eb019fcd09ca10507e49"
     end
   end
 
   def install
     bin.install "egg"
+    output = Utils.popen_read("#{bin}/egg completion bash")
+    (bash_completion/"egg").write output
+    output = Utils.popen_read("#{bin}/egg completion zsh")
+    (zsh_completion/"_egg").write output
+    prefix.install_metafiles
+  end
+
+  test do
+    system "#{bin}/egg --version"
   end
 end
