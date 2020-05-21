@@ -2,16 +2,16 @@
 class Grafaman < Formula
   desc "Metrics coverage reporter for Graphite and Grafana."
   homepage "https://github.com/kamilsk/grafaman"
-  version "0.1.0"
+  version "0.2.0"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/kamilsk/grafaman/releases/download/v0.1.0/grafaman_0.1.0_macOS-64bit.tar.gz"
-    sha256 "9259485b3f2d90c2a03624483096c018e59baea146c53f4cd07af61bfcb32363"
+    url "https://github.com/kamilsk/grafaman/releases/download/v0.2.0/grafaman_0.2.0_macOS-64bit.tar.gz"
+    sha256 "7b084ae3f53c96f544b8ab9ec5401a51d7bc413542ee688b852650cdc204336c"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/kamilsk/grafaman/releases/download/v0.1.0/grafaman_0.1.0_Linux-64bit.tar.gz"
-      sha256 "0906dce27fb5d2efc74994e5535f91acc5d48cafe21f028b709c3bfc07b8db14"
+      url "https://github.com/kamilsk/grafaman/releases/download/v0.2.0/grafaman_0.2.0_Linux-64bit.tar.gz"
+      sha256 "47d909ebe87abfe6bc6ef7804e08c5ab849a0becad63075627b5db5bdd67b895"
     end
   end
 
