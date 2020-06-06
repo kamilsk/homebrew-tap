@@ -1,5 +1,5 @@
 class Check < Formula
-  desc "Check Something as a Service."
+  desc "Tool to check something."
   homepage "https://github.com/kamilsk/check"
   url "https://github.com/kamilsk/check/releases/download/1.1.0/check_1.1.0_macOS-64bit.tar.gz"
   version "1.1.0"

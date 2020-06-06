@@ -1,211 +1,128 @@
-> # 🤖 homebrew-tap [![Tweet][icon_twitter]][twitter_publish]
-> [![Analytics][analytics_pixel]][page_promo]
-> Homebrew Formulae of my binaries.
+> # 🤖 Homebrew Tap
+>
+> Homebrew Formulae of all my tools.
 
-[![Patreon][icon_patreon]](https://www.patreon.com/octolab)
-[![License][icon_license]](LICENSE)
+- [bridge](#bridge)
+- [check](#check)
+- [egg](#egg)
+- [forward](#forward)
+- [genome](#genome)
+- [grafaman](#grafaman)
+- [lift](#lift)
+- [stash](#stash)
 
-## [check][page_check_promo]
+## [bridge][bridge.promo.page]
 
-[![Build Status][icon_check_build]][page_check_build]
-[![Code Coverage][icon_check_coverage]][page_check_coverage]
-[![Code Quality][icon_check_quality]][page_check_quality]
-[![License][icon_check_license]][page_check_license]
+[![Build][bridge.build.icon]][bridge.build.page]
 
-[icon_check_build]:    https://travis-ci.org/kamilsk/check.svg?branch=master
-[icon_check_coverage]: https://scrutinizer-ci.com/g/kamilsk/check/badges/coverage.png?b=master
-[icon_check_quality]:  https://scrutinizer-ci.com/g/kamilsk/check/badges/quality-score.png?b=master
-[icon_check_license]:  https://img.shields.io/badge/license-MIT-blue.svg
-[page_check_promo]:    https://github.com/kamilsk/check
-[page_check_build]:    https://travis-ci.org/kamilsk/check
-[page_check_coverage]: https://scrutinizer-ci.com/g/kamilsk/check/?branch=master
-[page_check_quality]:  https://scrutinizer-ci.com/g/kamilsk/check/?branch=master
-[page_check_license]:  https://github.com/kamilsk/check/blob/master/LICENSE
+[bridge.build.page]:    https://travis-ci.com/kamilsk/bridge
+[bridge.build.icon]:    https://travis-ci.com/kamilsk/bridge.svg?branch=master
+[bridge.promo.page]:    https://github.com/kamilsk/bridge
+
+```bash
+$ brew install kamilsk/tap/bridge
+$ bridge version
+$ source <(bridge completion)
+```
+
+## [check][check.promo.page]
+
+[![Build][check.build.icon]][check.build.page]
+
+[check.build.page]:     https://travis-ci.com/kamilsk/check
+[check.build.icon]:     https://travis-ci.com/kamilsk/check.svg?branch=master
+[check.promo.page]:     https://github.com/kamilsk/check
 
 ```bash
 $ brew install kamilsk/tap/check
-$ check completion bash > /path/to/bash_completion.d/check.sh
-$ check completion zsh  > /path/to/zsh-completions/_check.zsh
+$ check version
+$ source <(check completion)
 ```
 
-## [click][page_click_promo]
+## [egg][egg.promo.page]
 
-[![Gitter][icon_gitter]][gitter_click]
-[![Build Status][icon_click_build]][page_click_build]
-[![Code Coverage][icon_click_coverage]][page_click_coverage]
-[![Code Quality][icon_click_quality]][page_click_quality]
-[![License][icon_click_license]][page_click_license]
+[![Build][egg.build.icon]][egg.build.page]
 
-[gitter_click]:        https://gitter.im/kamilsk/click
-[icon_click_build]:    https://travis-ci.org/kamilsk/click.svg?branch=master
-[icon_click_coverage]: https://scrutinizer-ci.com/g/kamilsk/click/badges/coverage.png?b=master
-[icon_click_quality]:  https://scrutinizer-ci.com/g/kamilsk/click/badges/quality-score.png?b=master
-[icon_click_license]:  https://img.shields.io/badge/license-MIT-blue.svg
-[page_click_promo]:    https://github.com/kamilsk/click
-[page_click_build]:    https://travis-ci.org/kamilsk/click
-[page_click_coverage]: https://scrutinizer-ci.com/g/kamilsk/click/?branch=master
-[page_click_quality]:  https://scrutinizer-ci.com/g/kamilsk/click/?branch=master
-[page_click_license]:  https://github.com/kamilsk/click/blob/master/LICENSE
+[egg.build.page]:       https://travis-ci.com/kamilsk/egg
+[egg.build.icon]:       https://travis-ci.com/kamilsk/egg.svg?branch=master
+[egg.promo.page]:       https://github.com/kamilsk/egg
 
 ```bash
-$ brew install kamilsk/tap/click
-$ click completion bash > /path/to/bash_completion.d/click.sh
-$ click completion zsh  > /path/to/zsh-completions/_click.zsh
+$ brew install kamilsk/tap/egg
+$ egg version
+$ source <(egg completion)
 ```
 
-## [form-api][page_forma_promo]
+## [forward][forward.promo.page]
 
-[![Gitter][icon_gitter]][gitter_forma]
-[![Build Status][icon_forma_build]][page_forma_build]
-[![Code Coverage][icon_forma_coverage]][page_forma_coverage]
-[![Code Quality][icon_forma_quality]][page_forma_quality]
-[![License][icon_forma_license]][page_forma_license]
+[![Build][forward.build.icon]][forward.build.page]
 
-[gitter_forma]:        https://gitter.im/kamilsk/form-api
-[icon_forma_build]:    https://travis-ci.org/kamilsk/form-api.svg?branch=master
-[icon_forma_coverage]: https://scrutinizer-ci.com/g/kamilsk/form-api/badges/coverage.png?b=master
-[icon_forma_quality]:  https://scrutinizer-ci.com/g/kamilsk/form-api/badges/quality-score.png?b=master
-[icon_forma_license]:  https://img.shields.io/badge/license-MIT-blue.svg
-[page_forma_promo]:    https://github.com/kamilsk/form-api
-[page_forma_build]:    https://travis-ci.org/kamilsk/form-api
-[page_forma_coverage]: https://scrutinizer-ci.com/g/kamilsk/form-api/?branch=master
-[page_forma_quality]:  https://scrutinizer-ci.com/g/kamilsk/form-api/?branch=master
-[page_forma_license]:  https://github.com/kamilsk/form-api/blob/master/LICENSE
-
-```bash
-$ brew install kamilsk/tap/form-api
-$ form-api completion bash > /path/to/bash_completion.d/form-api.sh
-$ form-api completion zsh  > /path/to/zsh-completions/_form-api.zsh
-```
-
-## [forward][page_forward_promo]
-
-[![Build Status][icon_forward_build]][page_forward_build]
-[![License][icon_forward_license]][page_forward_license]
-
-[icon_forward_build]:   https://travis-ci.org/kamilsk/forward.svg?branch=master
-[icon_forward_license]: https://img.shields.io/badge/license-MIT-blue.svg
-[page_forward_promo]:   https://github.com/kamilsk/forward
-[page_forward_build]:   https://travis-ci.org/kamilsk/forward
-[page_forward_license]: https://github.com/kamilsk/forward/blob/master/LICENSE
+[forward.build.page]:   https://travis-ci.com/kamilsk/forward
+[forward.build.icon]:   https://travis-ci.com/kamilsk/forward.svg?branch=master
+[forward.promo.page]:   https://github.com/kamilsk/forward
 
 ```bash
 $ brew install kamilsk/tap/forward
+$ forward version
+$ source <(forward completion)
 ```
 
-## [guard][page_guard_promo]
+## [genome][genome.promo.page]
 
-[![Build Status][icon_guard_build]][page_guard_build]
-[![License][icon_guard_license]][page_guard_license]
+[![Build][genome.build.icon]][genome.build.page]
 
-[icon_guard_build]:   https://travis-ci.org/kamilsk/guard.svg?branch=master
-[icon_guard_license]: https://img.shields.io/badge/license-MIT-blue.svg
-[page_guard_promo]:   https://github.com/kamilsk/guard
-[page_guard_build]:   https://travis-ci.org/kamilsk/guard
-[page_guard_license]: https://github.com/kamilsk/guard/blob/master/LICENSE
+[genome.build.page]:    https://travis-ci.com/kamilsk/genome
+[genome.build.icon]:    https://travis-ci.com/kamilsk/genome.svg?branch=master
+[genome.promo.page]:    https://github.com/kamilsk/genome
 
 ```bash
-$ brew install kamilsk/tap/guard
-$ guard    completion bash > /path/to/bash_completion.d/guard.sh
-$ guard    completion zsh  > /path/to/zsh-completions/_guard.zsh
-$ guardctl completion bash > /path/to/bash_completion.d/guardctl.sh
-$ guardctl completion zsh  > /path/to/zsh-completions/_guardctl.zsh
+$ brew install kamilsk/tap/genome
+$ genome version
+$ source <(genome completion)
 ```
 
-## [passport][page_passport_promo]
+## [grafaman][grafaman.promo.page]
 
-[![Gitter][icon_gitter]][gitter_passport]
-[![Build Status][icon_passport_build]][page_passport_build]
-[![Code Coverage][icon_passport_coverage]][page_passport_coverage]
-[![Code Quality][icon_passport_quality]][page_passport_quality]
-[![License][icon_passport_license]][page_passport_license]
+[![Build][grafaman.build.icon]][grafaman.build.page]
 
-[gitter_passport]:        https://gitter.im/kamilsk/passport
-[icon_passport_build]:    https://travis-ci.org/kamilsk/passport.svg?branch=master
-[icon_passport_coverage]: https://scrutinizer-ci.com/g/kamilsk/passport/badges/coverage.png?b=master
-[icon_passport_quality]:  https://scrutinizer-ci.com/g/kamilsk/passport/badges/quality-score.png?b=master
-[icon_passport_license]:  https://img.shields.io/badge/license-MIT-blue.svg
-[page_passport_promo]:    https://github.com/kamilsk/passport
-[page_passport_build]:    https://travis-ci.org/kamilsk/passport
-[page_passport_coverage]: https://scrutinizer-ci.com/g/kamilsk/passport/?branch=master
-[page_passport_quality]:  https://scrutinizer-ci.com/g/kamilsk/passport/?branch=master
-[page_passport_license]:  https://github.com/kamilsk/passport/blob/master/LICENSE
+[grafaman.build.page]:  https://travis-ci.com/kamilsk/grafaman
+[grafaman.build.icon]:  https://travis-ci.com/kamilsk/grafaman.svg?branch=master
+[grafaman.promo.page]:  https://github.com/kamilsk/grafaman
 
 ```bash
-$ brew install kamilsk/tap/passport
-$ passport completion bash > /path/to/bash_completion.d/passport.sh
-$ passport completion zsh  > /path/to/zsh-completions/_passport.zsh
+$ brew install kamilsk/tap/grafaman
+$ grafaman version
+$ source <(grafaman completion)
 ```
 
-## [retry][page_retry_promo]
+## [lift][lift.promo.page]
 
-[![Awesome][icon_awesome]](https://github.com/avelino/awesome-go#utilities)
-[![Gitter][icon_gitter]][gitter_retry]
-[![Build Status][icon_retry_build]][page_retry_build]
-[![Code Coverage][icon_retry_coverage]][page_retry_coverage]
-[![Code Quality][icon_retry_quality]][page_retry_quality]
-[![License][icon_retry_license]][page_retry_license]
+[![Build][lift.build.icon]][lift.build.page]
 
-[gitter_retry]:        https://gitter.im/kamilsk/retry
-[icon_retry_build]:    https://travis-ci.org/kamilsk/retry.svg?branch=master
-[icon_retry_coverage]: https://scrutinizer-ci.com/g/kamilsk/retry/badges/coverage.png?b=master
-[icon_retry_quality]:  https://scrutinizer-ci.com/g/kamilsk/retry/badges/quality-score.png?b=master
-[icon_retry_license]:  https://img.shields.io/badge/license-MIT-blue.svg
-[page_retry_promo]:    https://github.com/kamilsk/retry
-[page_retry_build]:    https://travis-ci.org/kamilsk/retry
-[page_retry_coverage]: https://scrutinizer-ci.com/g/kamilsk/retry/?branch=master
-[page_retry_quality]:  https://scrutinizer-ci.com/g/kamilsk/retry/?branch=master
-[page_retry_license]:  https://github.com/kamilsk/retry/blob/master/LICENSE
+[lift.build.page]:      https://travis-ci.com/kamilsk/lift
+[lift.build.icon]:      https://travis-ci.com/kamilsk/lift.svg?branch=master
+[lift.promo.page]:      https://github.com/kamilsk/lift
 
 ```bash
-$ brew install kamilsk/tap/retry
-$ retry completion bash > /path/to/bash_completion.d/retry.sh
-$ retry completion zsh  > /path/to/zsh-completions/_retry.zsh
+$ brew install kamilsk/tap/lift
+$ lift version
+$ source <(lift completion)
 ```
 
-## [semaphore][page_semaphore_promo]
+## [stash][stash.promo.page]
 
-[![Awesome][icon_awesome]](https://github.com/avelino/awesome-go#goroutines)
-[![Gitter][icon_gitter]][gitter_semaphore]
-[![Build Status][icon_semaphore_build]][page_semaphore_build]
-[![Code Coverage][icon_semaphore_coverage]][page_semaphore_coverage]
-[![Code Quality][icon_semaphore_quality]][page_semaphore_quality]
-[![License][icon_semaphore_license]][page_semaphore_license]
+[![Build][stash.build.icon]][stash.build.page]
 
-[gitter_semaphore]:        https://gitter.im/kamilsk/semaphore
-[icon_semaphore_build]:    https://travis-ci.org/kamilsk/semaphore.svg?branch=master
-[icon_semaphore_coverage]: https://scrutinizer-ci.com/g/kamilsk/semaphore/badges/coverage.png?b=master
-[icon_semaphore_quality]:  https://scrutinizer-ci.com/g/kamilsk/semaphore/badges/quality-score.png?b=master
-[icon_semaphore_license]:  https://img.shields.io/badge/license-MIT-blue.svg
-[page_semaphore_promo]:    https://github.com/kamilsk/semaphore
-[page_semaphore_build]:    https://travis-ci.org/kamilsk/semaphore
-[page_semaphore_coverage]: https://scrutinizer-ci.com/g/kamilsk/semaphore/?branch=master
-[page_semaphore_quality]:  https://scrutinizer-ci.com/g/kamilsk/semaphore/?branch=master
-[page_semaphore_license]:  https://github.com/kamilsk/semaphore/blob/master/LICENSE
+[stash.build.page]:     https://travis-ci.com/kamilsk/stash
+[stash.build.icon]:     https://travis-ci.com/kamilsk/stash.svg?branch=master
+[stash.promo.page]:     https://github.com/kamilsk/stash
 
 ```bash
-$ brew install kamilsk/tap/semaphore
-$ semaphore completion bash > /path/to/bash_completion.d/semaphore.sh
-$ semaphore completion zsh  > /path/to/zsh-completions/_semaphore.zsh
+$ brew install kamilsk/tap/stash
+$ stash version
+$ source <(stash completion)
 ```
 
 ---
 
-[![@kamilsk][icon_tw_author]](https://twitter.com/ikamilsk)
-[![@octolab][icon_tw_sponsor]](https://twitter.com/octolab_inc)
-
-made with ❤️ by [OctoLab](https://www.octolab.org/)
-
-[analytics_pixel]: https://ga-beacon.appspot.com/UA-109817251-23/unsupported/homebrew-tap/readme?pixel
-
-[icon_awesome]:    https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg
-[icon_gitter]:     https://badges.gitter.im/Join%20Chat.svg
-[icon_license]:    https://img.shields.io/badge/license-MIT-blue.svg
-[icon_patreon]:    https://img.shields.io/badge/patreon-donate-orange.svg
-[icon_tw_author]:  https://img.shields.io/badge/author-%40kamilsk-blue.svg
-[icon_tw_sponsor]: https://img.shields.io/badge/sponsor-%40octolab-blue.svg
-[icon_twitter]:    https://img.shields.io/twitter/url/http/shields.io.svg?style=social
-
-[page_promo]:      https://github.com/kamilsk/homebrew-tap
-
-[twitter_publish]: https://twitter.com/intent/tweet?text=Homebrew%20Formulae%20of%20my%20binaries&url=https://github.com/kamilsk/homebrew-tap&via=ikamilsk&hashtags=brew,binaries
+made with ❤️ for everyone
