@@ -2,20 +2,29 @@
 class Lift < Formula
   desc "Up your service locally."
   homepage "https://github.com/kamilsk/lift"
-  version "0.2.3"
+  version "0.2.4"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/kamilsk/lift/releases/download/v0.2.3/lift_0.2.3_macOS-64bit.tar.gz"
-    sha256 "5d6f81e6162ea72548b31f79dc62cbb919e0174490c2b4795da5f6ef6fd4f2b2"
+    url "https://github.com/kamilsk/lift/releases/download/v0.2.4/lift_0.2.4_macOS-64bit.tar.gz"
+    sha256 "d2fd9840980ea69e4258deae5f56c1c6cb4d378081c7f1ba12641154da7bcab0"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/kamilsk/lift/releases/download/v0.2.3/lift_0.2.3_Linux-64bit.tar.gz"
-      sha256 "fa3b31f170e68f787992c332a5a5cc52f5feb9c8bb22881810687bee544026cc"
+      url "https://github.com/kamilsk/lift/releases/download/v0.2.4/lift_0.2.4_Linux-64bit.tar.gz"
+      sha256 "cf24483deb892531d9c440854b49618f6f3244f48b226904992f8b9008152ec5"
     end
   end
 
   def install
     bin.install "lift"
+    output = Utils.popen_read("#{bin}/lift completion bash")
+    (bash_completion/"lift").write output
+    output = Utils.popen_read("#{bin}/lift completion zsh")
+    (zsh_completion/"_lift").write output
+    prefix.install_metafiles
+  end
+
+  test do
+    system "#{bin}/lift version"
   end
 end
