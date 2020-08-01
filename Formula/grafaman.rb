@@ -2,29 +2,29 @@
 class Grafaman < Formula
   desc "Metrics coverage reporter for Graphite and Grafana."
   homepage "https://github.com/kamilsk/grafaman"
-  version "1.0.0-alpha2"
+  version "1.0.0-beta1"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/kamilsk/grafaman/releases/download/v1.0.0-alpha2/grafaman_1.0.0-alpha2_macOS-64bit.tar.gz"
-    sha256 "7b7acbd0dd34b00d5852303ba436b25b2db599aaba5c08bfa13d2e78ed287813"
+    url "https://github.com/kamilsk/grafaman/releases/download/v1.0.0-beta1/grafaman_1.0.0-beta1_macOS-64bit.tar.gz"
+    sha256 "6bcd8f2a662566a6d3bca0334d1d0fcd09aee258d4b2a2c211c844dc7f83af18"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/kamilsk/grafaman/releases/download/v1.0.0-alpha2/grafaman_1.0.0-alpha2_Linux-64bit.tar.gz"
-      sha256 "166cb3000d8bda742c69aac4cd850aeb0f7cba8b0fe47315727c364c110866e0"
+      url "https://github.com/kamilsk/grafaman/releases/download/v1.0.0-beta1/grafaman_1.0.0-beta1_Linux-64bit.tar.gz"
+      sha256 "17d85e3e33d8ca7c7cd05afae2f12334f948ab66f4b717f3e2a3c69cca5a1a95"
     end
   end
 
   def install
     bin.install "grafaman"
     output = Utils.popen_read("#{bin}/grafaman completion bash")
-    (bash_completion/"grafaman").write output
+    (bash_completion/grafaman).write output
     output = Utils.popen_read("#{bin}/grafaman completion zsh")
-    (zsh_completion/"_grafaman").write output
+    (zsh_completion/_grafaman).write output
     prefix.install_metafiles
   end
 
   test do
-    system "#{bin}/grafaman --version"
+    system "#{bin}/grafaman version"
   end
 end
