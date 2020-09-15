@@ -7,20 +7,25 @@ your code in the same style as gofmt so it can be used
 as a replacement for your editor's gofmt-on-save hook.
 "
   homepage "https://github.com/kamilsk/go-tools"
-  version "0.0.4"
+  version "0.0.5"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/kamilsk/go-tools/releases/download/v0.0.4/goimports_0.0.4_macOS-64bit.tar.gz"
-    sha256 "e0c8d74403cc1faf1886fe04efd22c0ce6155a0067f96090f8c62e4234d79de8"
+    url "https://github.com/kamilsk/go-tools/releases/download/v0.0.5/goimports_0.0.5_macOS-64bit.tar.gz"
+    sha256 "c272eeeeeba41625ed1672e88498bded564580ad47789961155d416067d8d3a2"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/kamilsk/go-tools/releases/download/v0.0.4/goimports_0.0.4_Linux-64bit.tar.gz"
-      sha256 "8de2d391affa4bdd46ee4f6d6d0ff70eabc6b659683f372589c2f4beb1edafb2"
+      url "https://github.com/kamilsk/go-tools/releases/download/v0.0.5/goimports_0.0.5_Linux-64bit.tar.gz"
+      sha256 "dc1d1e28bb9a5c02529b124c1bc5917ee06ec7c074417777cf05d85203a43ca0"
     end
   end
 
   def install
     bin.install "goimports"
+    prefix.install_metafiles
+  end
+
+  test do
+    system "#{bin}/goimports -help"
   end
 end
