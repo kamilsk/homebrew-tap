@@ -30,9 +30,9 @@ $ bridge version
 $ source <(bridge completion bash|fish|powershell|zsh)
 ```
 
-[bridge.build.page]:    https://travis-ci.com/kamilsk/bridge
-[bridge.build.icon]:    https://travis-ci.com/kamilsk/bridge.svg?branch=master
-[bridge.promo.page]:    https://github.com/kamilsk/bridge
+[bridge.build.page]:        https://travis-ci.com/kamilsk/bridge
+[bridge.build.icon]:        https://travis-ci.com/kamilsk/bridge.svg?branch=master
+[bridge.promo.page]:        https://github.com/kamilsk/bridge
 
 ## 🔬 [check][check.promo.page]
 
@@ -46,9 +46,9 @@ $ check version
 $ source <(check completion bash|fish|powershell|zsh)
 ```
 
-[check.build.page]:     https://travis-ci.com/kamilsk/check
-[check.build.icon]:     https://travis-ci.com/kamilsk/check.svg?branch=master
-[check.promo.page]:     https://github.com/kamilsk/check
+[check.build.page]:         https://travis-ci.com/kamilsk/check
+[check.build.icon]:         https://travis-ci.com/kamilsk/check.svg?branch=master
+[check.promo.page]:         https://github.com/kamilsk/check
 
 ## 🐣 [egg][egg.promo.page]
 
@@ -62,9 +62,9 @@ $ egg version
 $ source <(egg completion bash|fish|powershell|zsh)
 ```
 
-[egg.build.page]:       https://travis-ci.com/kamilsk/egg
-[egg.build.icon]:       https://travis-ci.com/kamilsk/egg.svg?branch=master
-[egg.promo.page]:       https://github.com/kamilsk/egg
+[egg.build.page]:           https://travis-ci.com/kamilsk/egg
+[egg.build.icon]:           https://travis-ci.com/kamilsk/egg.svg?branch=master
+[egg.promo.page]:           https://github.com/kamilsk/egg
 
 ## 🎳 [forward][forward.promo.page]
 
@@ -78,9 +78,9 @@ $ forward version
 $ source <(forward completion bash|fish|powershell|zsh)
 ```
 
-[forward.build.page]:   https://travis-ci.com/kamilsk/forward
-[forward.build.icon]:   https://travis-ci.com/kamilsk/forward.svg?branch=master
-[forward.promo.page]:   https://github.com/kamilsk/forward
+[forward.build.page]:       https://travis-ci.com/kamilsk/forward
+[forward.build.icon]:       https://travis-ci.com/kamilsk/forward.svg?branch=master
+[forward.promo.page]:       https://github.com/kamilsk/forward
 
 ## 🧬 [genome][genome.promo.page]
 
@@ -94,9 +94,9 @@ $ genome version
 $ source <(genome completion bash|fish|powershell|zsh)
 ```
 
-[genome.build.page]:    https://travis-ci.com/kamilsk/genome
-[genome.build.icon]:    https://travis-ci.com/kamilsk/genome.svg?branch=master
-[genome.promo.page]:    https://github.com/kamilsk/genome
+[genome.build.page]:        https://travis-ci.com/kamilsk/genome
+[genome.build.icon]:        https://travis-ci.com/kamilsk/genome.svg?branch=master
+[genome.promo.page]:        https://github.com/kamilsk/genome
 
 ## 🛠 [goimports][goimports.promo.page]
 
@@ -109,9 +109,9 @@ $ brew install goimports
 $ goimports -h
 ```
 
-[goimports.build.page]:    https://travis-ci.com/kamilsk/go-tools
-[goimports.build.icon]:    https://travis-ci.com/kamilsk/go-tools.svg?branch=extended
-[goimports.promo.page]:    https://github.com/kamilsk/go-tools/blob/extended/CHANGES.md
+[goimports.build.page]:     https://travis-ci.com/kamilsk/go-tools
+[goimports.build.icon]:     https://travis-ci.com/kamilsk/go-tools.svg?branch=extended
+[goimports.promo.page]:     https://github.com/kamilsk/go-tools/blob/extended/CHANGES.md
 
 ## 📈 [grafaman][grafaman.promo.page]
 
@@ -125,9 +125,9 @@ $ grafaman version
 $ source <(grafaman completion bash|fish|powershell|zsh)
 ```
 
-[grafaman.build.page]:  https://travis-ci.com/kamilsk/grafaman
-[grafaman.build.icon]:  https://travis-ci.com/kamilsk/grafaman.svg?branch=master
-[grafaman.promo.page]:  https://github.com/kamilsk/grafaman
+[grafaman.build.page]:      https://travis-ci.com/kamilsk/grafaman
+[grafaman.build.icon]:      https://travis-ci.com/kamilsk/grafaman.svg?branch=master
+[grafaman.promo.page]:      https://github.com/kamilsk/grafaman
 
 ## 🏋️‍♂️ [lift][lift.promo.page]
 
@@ -141,9 +141,9 @@ $ lift version
 $ source <(lift completion bash|fish|powershell|zsh)
 ```
 
-[lift.build.page]:      https://travis-ci.com/kamilsk/lift
-[lift.build.icon]:      https://travis-ci.com/kamilsk/lift.svg?branch=master
-[lift.promo.page]:      https://github.com/kamilsk/lift
+[lift.build.page]:          https://travis-ci.com/kamilsk/lift
+[lift.build.icon]:          https://travis-ci.com/kamilsk/lift.svg?branch=master
+[lift.promo.page]:          https://github.com/kamilsk/lift
 
 ## 🧺 [stash][stash.promo.page]
 
@@ -157,8 +157,8 @@ $ stash version
 $ source <(stash completion bash|fish|powershell|zsh)
 ```
 
-[stash.build.page]:     https://travis-ci.com/kamilsk/stash
-[stash.build.icon]:     https://travis-ci.com/kamilsk/stash.svg?branch=master
-[stash.promo.page]:     https://github.com/kamilsk/stash
+[stash.build.page]:         https://travis-ci.com/kamilsk/stash
+[stash.build.icon]:         https://travis-ci.com/kamilsk/stash.svg?branch=master
+[stash.promo.page]:         https://github.com/kamilsk/stash
 
 <p align="right">made with ❤️ for everyone</p>
