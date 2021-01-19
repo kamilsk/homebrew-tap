@@ -27,7 +27,7 @@ $ brew tap kamilsk/tap
 ```bash
 $ brew install bridge
 $ bridge version
-$ source <(bridge completion bash|fish|powershell|zsh)
+$ source <(bridge completion)
 ```
 
 [bridge.build.page]:        https://travis-ci.com/kamilsk/bridge
@@ -43,7 +43,7 @@ $ source <(bridge completion bash|fish|powershell|zsh)
 ```bash
 $ brew install check
 $ check version
-$ source <(check completion bash|fish|powershell|zsh)
+$ source <(check completion)
 ```
 
 [check.build.page]:         https://travis-ci.com/kamilsk/check
@@ -59,7 +59,7 @@ $ source <(check completion bash|fish|powershell|zsh)
 ```bash
 $ brew install egg
 $ egg version
-$ source <(egg completion bash|fish|powershell|zsh)
+$ source <(egg completion)
 ```
 
 [egg.build.page]:           https://travis-ci.com/kamilsk/egg
@@ -75,7 +75,7 @@ $ source <(egg completion bash|fish|powershell|zsh)
 ```bash
 $ brew install forward
 $ forward version
-$ source <(forward completion bash|fish|powershell|zsh)
+$ source <(forward completion)
 ```
 
 [forward.build.page]:       https://travis-ci.com/kamilsk/forward
@@ -91,7 +91,7 @@ $ source <(forward completion bash|fish|powershell|zsh)
 ```bash
 $ brew install genome
 $ genome version
-$ source <(genome completion bash|fish|powershell|zsh)
+$ source <(genome completion)
 ```
 
 [genome.build.page]:        https://travis-ci.com/kamilsk/genome
@@ -122,7 +122,7 @@ $ goimports -h
 ```bash
 $ brew install grafaman
 $ grafaman version
-$ source <(grafaman completion bash|fish|powershell|zsh)
+$ source <(grafaman completion)
 ```
 
 [grafaman.build.page]:      https://travis-ci.com/kamilsk/grafaman
@@ -138,7 +138,7 @@ $ source <(grafaman completion bash|fish|powershell|zsh)
 ```bash
 $ brew install lift
 $ lift version
-$ source <(lift completion bash|fish|powershell|zsh)
+$ source <(lift completion)
 ```
 
 [lift.build.page]:          https://travis-ci.com/kamilsk/lift
@@ -154,7 +154,7 @@ $ source <(lift completion bash|fish|powershell|zsh)
 ```bash
 $ brew install stash
 $ stash version
-$ source <(stash completion bash|fish|powershell|zsh)
+$ source <(stash completion)
 ```
 
 [stash.build.page]:         https://travis-ci.com/kamilsk/stash
