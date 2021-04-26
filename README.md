@@ -13,7 +13,8 @@ $ brew tap kamilsk/tap
 - 🐣 [egg](#-egg)
 - 🎳 [forward](#-forward)
 - 🧬 [genome](#-genome)
-- 🛠 [goimports](#-goimports)
+- 🔧 [goimports](#-goimports) **fork**
+- 🔧 [golangci-lint](#-golangci-lint) *fork**
 - 📈 [grafaman](#-grafaman)
 - 🏋️‍♂️ [lift](#-lift)
 - 🧺 [stash](#-stash)
@@ -98,9 +99,9 @@ $ source <(genome completion)
 [genome.build.icon]:        https://travis-ci.com/kamilsk/genome.svg?branch=master
 [genome.promo.page]:        https://github.com/kamilsk/genome
 
-## 🛠 [goimports][goimports.promo.page]
+## 🔧 [goimports][goimports.promo.page]
 
-> The extended version of goimports.
+> The extended and simplified versions of goimports.
 >
 > [![Build][goimports.build.icon]][goimports.build.page]
 
@@ -112,6 +113,21 @@ $ goimports -h
 [goimports.build.page]:     https://travis-ci.com/kamilsk/go-tools
 [goimports.build.icon]:     https://travis-ci.com/kamilsk/go-tools.svg?branch=extended
 [goimports.promo.page]:     https://github.com/kamilsk/go-tools/blob/extended/CHANGES.md
+
+## 🔧 [golangci-lint][golangci-lint.promo.page]
+
+> The extended version with looppointer.
+>
+> [![Build][golangci-lint.build.icon]][golangci-lint.build.page]
+
+```bash
+$ brew install golangci-lint
+$ golangci-lint help
+```
+
+[golangci-lint.build.page]: https://travis-ci.com/kamilsk/golangci-lint
+[golangci-lint.build.icon]: https://travis-ci.com/kamilsk/golangci-lint.svg?branch=extended
+[golangci-lint.promo.page]: https://github.com/kamilsk/golangci-lint/blob/extended/CHANGES.md
 
 ## 📈 [grafaman][grafaman.promo.page]
 
