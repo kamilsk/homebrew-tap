@@ -13,8 +13,8 @@ $ brew tap kamilsk/tap
 - 🐣 [egg](#-egg)
 - 🎳 [forward](#-forward)
 - 🧬 [genome](#-genome)
-- 🔧 [goimports](#-goimports) **fork**
-- 🔧 [golangci-lint](#-golangci-lint) *fork**
+- 🔧 [goimports](#-goimportsfork)<sup>fork</sup>
+- 🔧 [golangci-lint](#-golangci-lintfork)<sup>fork</sup>
 - 📈 [grafaman](#-grafaman)
 - 🏋️‍♂️ [lift](#-lift)
 - 🧺 [stash](#-stash)
@@ -99,7 +99,7 @@ $ source <(genome completion)
 [genome.build.icon]:        https://travis-ci.com/kamilsk/genome.svg?branch=master
 [genome.promo.page]:        https://github.com/kamilsk/genome
 
-## 🔧 [goimports][goimports.promo.page]
+## 🔧 [goimports][goimports.promo.page]<sup><small>fork</small></sup>
 
 > The extended and simplified versions of goimports.
 >
@@ -114,7 +114,7 @@ $ goimports -h
 [goimports.build.icon]:     https://travis-ci.com/kamilsk/go-tools.svg?branch=extended
 [goimports.promo.page]:     https://github.com/kamilsk/go-tools/blob/extended/CHANGES.md
 
-## 🔧 [golangci-lint][golangci-lint.promo.page]
+## 🔧 [golangci-lint][golangci-lint.promo.page]<sup><small>fork</small></sup>
 
 > The extended version with looppointer.
 >
