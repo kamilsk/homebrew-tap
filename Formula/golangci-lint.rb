@@ -8,16 +8,21 @@ uses caching, supports yaml config, has integrations with all major IDE
 and has dozens of linters included.
 "
   homepage "https://github.com/kamilsk/golangci-lint"
-  version "1.40.1"
+  version "1.41.0"
   bottle :unneeded
 
-  if OS.mac? && Hardware::CPU.intel?
-    url "https://github.com/kamilsk/golangci-lint/releases/download/v1.40.1/golangci-lint_1.40.1_macOS-64bit.tar.gz"
-    sha256 "dacb98a884242edadc11d0d5f3f4079ce41e0da34be3af0726d4875853207833"
+  on_macos do
+    if Hardware::CPU.intel?
+      url "https://github.com/kamilsk/golangci-lint/releases/download/v1.41.0/golangci-lint_1.41.0_macOS-64bit.tar.gz"
+      sha256 "543fded2456453d1cc7d7a5e5fc2ea55ed7a521ae500576290c4de13b8812ebb"
+    end
   end
-  if OS.linux? && Hardware::CPU.intel?
-    url "https://github.com/kamilsk/golangci-lint/releases/download/v1.40.1/golangci-lint_1.40.1_Linux-64bit.tar.gz"
-    sha256 "f4689e03e825ed7933a8b8629ab7d2f863ba34c4f191270f44b54c751f47aa31"
+
+  on_linux do
+    if Hardware::CPU.intel?
+      url "https://github.com/kamilsk/golangci-lint/releases/download/v1.41.0/golangci-lint_1.41.0_Linux-64bit.tar.gz"
+      sha256 "58b9a7d764e49e1947e52c770222d9217fc79400faaa002f589e3ba02b7de8c3"
+    end
   end
 
   def install
