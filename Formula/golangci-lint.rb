@@ -8,20 +8,20 @@ uses caching, supports yaml config, has integrations with all major IDE
 and has dozens of linters included.
 "
   homepage "https://github.com/kamilsk/golangci-lint"
-  version "1.41.0"
+  version "1.41.1"
   bottle :unneeded
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/kamilsk/golangci-lint/releases/download/v1.41.0/golangci-lint_1.41.0_macOS-64bit.tar.gz"
-      sha256 "543fded2456453d1cc7d7a5e5fc2ea55ed7a521ae500576290c4de13b8812ebb"
+      url "https://github.com/kamilsk/golangci-lint/releases/download/v1.41.1/golangci-lint_1.41.1_macOS-64bit.tar.gz"
+      sha256 "3285cc0aacd46103fefb55ded7c198bcf66aa1136bffae5a19d45b7d42f28a80"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/kamilsk/golangci-lint/releases/download/v1.41.0/golangci-lint_1.41.0_Linux-64bit.tar.gz"
-      sha256 "58b9a7d764e49e1947e52c770222d9217fc79400faaa002f589e3ba02b7de8c3"
+      url "https://github.com/kamilsk/golangci-lint/releases/download/v1.41.1/golangci-lint_1.41.1_Linux-64bit.tar.gz"
+      sha256 "657560f047324a07776a9727a45551ac46ac401eb96086de4e725f98734e78f6"
     end
   end
 
